@@ -1,0 +1,49 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #ffffff;
+  color: #2E5C9A;
+}
+header {
+  background-color: #2E5C9A;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  margin: 0 1rem;
+  color: #F9C80E;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  background: linear-gradient(to bottom, #0A3161, #B22234);
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.button {
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.intro, .services-icons, .why-us, .testimonial {
+  padding: 2rem;
+}
+.services-icons, .services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+}
+footer {
+  background-color: #2E5C9A;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
